@@ -8,6 +8,7 @@ body{
     overflow: none;
     display: flex;
     font-family: sans-serif;
+    background: url('fb-game-background.png');
 }
 
 .disable__dbl__tap__zoom{
@@ -21,23 +22,26 @@ body{
     left: 80px;
     display: flex;
     flex-direction: column;
+    margin-left: 28%;
 }
 
 .border__left{
     width: 80px;
     height: 730px;
     position: absolute;
-    background-color: white;
+    background: url('fb-game-background.png');
     z-index: 10;
+    margin-left: 28%;
 }
 
 .border__right{
     width: 80px;
     height: 730px;
     position: absolute;
-    background-color: white;
+    background: url('fb-game-background.png');
     z-index: 10;
     left: 580px;
+    margin-left: 28%;
 }
 
 .border__top{
@@ -47,6 +51,7 @@ body{
     background-color: white;
     top: -50px;
     z-index: 10;
+    margin-left: 28%;
 }
 
 .sky{
@@ -97,6 +102,6 @@ body{
 #score{
     color: black;
     margin-top: 800px;
-    margin-left: 100px;
+    margin-left: 40%;
     font-size: 2rem;
 }
