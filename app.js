@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
         obstacleIntervals.forEach(clearInterval); // Clear all obstacle intervals
         isGameOver = true;
         document.removeEventListener('keyup', jumpControlKey);
-        document.removeEventListener('keyup', jumpControlClick);
+        document.removeEventListener('click', jumpControlClick);
     }
 
 });
