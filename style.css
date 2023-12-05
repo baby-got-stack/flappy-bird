@@ -7,6 +7,11 @@
 body{
     overflow: none;
     display: flex;
+    font-family: sans-serif;
+}
+
+.disable__dbl__tap__zoom{
+    touch-action: manipulation;
 }
 
 .game__container{
